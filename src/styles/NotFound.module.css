@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FFEFD5;
+}
+
+.svg-icon {
+    width: 3rem;
+    height: 3rem;
+    fill: none;
+    stroke: #292929;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: #292929;
+}
+
+.message {
+    max-width: 700px;
+    padding-top: 0.5rem;
+    color: #292929;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .svg-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+        fill: none;
+        stroke: #292929;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: -0.05em;
+        color: #292929;
+    }
+
+    .message {
+        max-width: 1000px;
+        text-align: center;
+        color: #292929;
+    }
+}

@@ -1,18 +1,21 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 
 import './App.css';
 import "./index.css";
 
-import Main from "./pages/Main/Main";
-import NotFound from "./pages/NotFound/NotFound";
+import NotFound from "./pages/NotFound";
+import Main from "./pages/Main";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+      <HelmetProvider>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </HelmetProvider>
     </BrowserRouter>
   );
 }

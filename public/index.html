@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta  name="description"  content="나와 닮은 원신 캐릭터 찿기"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>나와 닮은 원신 캐릭터 찿기</title>
-  </head>
-  <body>
-    <noscript>자바스크립트가 활성화 되어있지 않습니다.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="나와 닮은 원신 캐릭터 찿기" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>나와 닮은 원신 캐릭터 찿기</title>
+</head>
+
+<style>
+  @font-face {
+    font-family: 'KCC-Hanbit';
+    src: url("./font/KCC-Hanbit.woff2") format("woff2"), url("./font/KCC-Hanbit.woff") format("woff"), url("./font/KCC-Hanbit.eot") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    margin: 0;
+    font-family: "KCC-Hanbit";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+</style>
+
+<body>
+  <noscript>자바스크립트가 활성화 되어있지 않습니다.</noscript>
+  <div id="root"></div>
+</body>
+
 </html>
