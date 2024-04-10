@@ -95,7 +95,7 @@
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
         font-weight: 600;
         letter-spacing: -0.05em;
@@ -104,22 +104,22 @@
 
     .message {
         max-width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding-top: 1rem;
         text-align: center;
         color: #292929;
     }
 
     .logo {
-        width: 17.5rem;
-        height: 17.5rem;
+        width: 17rem;
+        height: 17rem;
         object-fit: cover;
         margin-bottom: 1rem;
     }
 
     .upload_text {
-        font-size: 1.8rem;
-        padding: 1.2rem;
+        font-size: 1.6rem;
+        padding: 1rem;
         text-align: center;
         z-index: 1;
     }
