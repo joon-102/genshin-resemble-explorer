@@ -6,7 +6,6 @@
     flex-direction: column;
     gap: 1rem;
     background-color: #FFEFD5;
-    padding: 1rem;
 }
 
 .container_2 {
@@ -106,7 +105,7 @@
     .message {
         max-width: 100%;
         font-size: 1.5rem;
-        padding-top: 0.5rem;
+        padding-top: 1rem;
         text-align: center;
         color: #292929;
     }
